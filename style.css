@@ -328,6 +328,21 @@ h1, h2, h3 { font-family: var(--display); margin: 0; letter-spacing: -0.01em; }
 .location__list span { color: var(--ink-dim); font-size: 14.5px; }
 .location__list [data-editable] { color: var(--amber); }
 
+/* ---------- trajectory disclaimer ---------- */
+.trajectory__disclaimer {
+  margin-top: 32px;
+  padding: 18px 22px;
+  border-left: 2px solid var(--green-dim);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--green-dim);
+  border-radius: var(--radius);
+  font-family: var(--body);
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--ink-dim);
+}
+
 /* ---------- footer ---------- */
 .footer { background: var(--bg-alt); border-top: 1px solid var(--line); }
 .footer__inner {
